@@ -1,0 +1,391 @@
+    #NEFOR-gallery{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        grid-template-rows: auto;
+        grid-gap: 5px;
+        grid-template-areas: 
+        "gallery-p gallery-p gallery-p gallery-p gallery-p"
+        "gallery-h2 gallery-h2 gallery-h2 gallery-h2 gallery-h2"
+        "NEFOR1 NEFOR2 NEFOR3 NEFOR4 NEFOR5"
+        "NEFOR6 NEFOR7 NEFOR3 NEFOR8 NEFOR9"
+        "NEFOR10 NEFOR11 NEFOR12 NEFOR8 NEFOR13" 
+        "NEFOR14 NEFOR15 NEFOR16 NEFOR17 NEFOR18"
+        "NEFOR14 NEFOR15 NEFOR19 NEFOR17 NEFOR20"
+        "NEFOR21 NEFOR22 NEFOR23 NEFOR24 NEFOR25"
+        "NEFOR21 NEFOR26 NEFOR27 NEFOR28 NEFOR29"
+        "NEFOR30 NEFOR31 NEFOR27 NEFOR28 NEFOR29" 
+        "NEFOR32 NEFOR33 NEFOR34 NEFOR35 NEFOR36"
+        "NEFOR37 NEFOR38 NEFOR39 NEFOR35 NEFOR36"
+        "NEFOR40 NEFOR41 NEFOR39 NEFOR42 NEFOR43"
+        "NEFOR40 NEFOR44 NEFOR45 NEFOR46 NEFOR47"
+        "NEFOR48 NEFOR49 NEFOR50 NEFOR51 NEFOR52"
+        "NEFOR48 NEFOR53 NEFOR54 NEFOR55 NEFOR56"
+        "NEFOR57 NEFOR58 NEFOR59 NEFOR60 NEFOR56"
+        "NEFOR61 NEFOR62 NEFOR63 NEFOR64 NEFOR65"
+        "NEFOR66 NEFOR67 NEFOR68 NEFOR69 NEFOR70"
+        "NEFOR66 NEFOR67 NEFOR71 NEFOR72 NEFOR73"
+        "NEFOR74 NEFOR75 NEFOR71 NEFOR76 NEFOR73"    
+           ;
+    }
+    /*all images*/
+    #NEFOR-gallery p{
+        grid-area: gallery-p;
+    }#NEFOR-gallery h2{
+        grid-area: gallery-h2;
+    }
+
+    #NEFOR-gallery .NEFOR-IMG{
+        width: 100%;
+        height: 300px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        cursor: pointer;
+    }
+    #NEFOR-gallery .NEFOR1{
+        grid-area: NEFOR1;
+        background-image: url(../NEFORIMG/thumbs/NEFOR1.jpg);
+    }
+    #NEFOR-gallery .NEFOR2{
+        grid-area: NEFOR2;
+        background-image: url(../NEFORIMG/thumbs/NEFOR2.jpg);
+    }
+    #NEFOR-gallery .NEFOR3{
+        grid-area: NEFOR3;
+        background-image: url(../NEFORIMG/thumbs/NEFOR3.jpg);
+        height: 605px;
+    }
+    #NEFOR-gallery .NEFOR4{
+        grid-area: NEFOR4;
+        background-image: url(../NEFORIMG/thumbs/NEFOR4.jpg);
+    }
+    #NEFOR-gallery .NEFOR5{
+        grid-area: NEFOR5;
+        background-image: url(../NEFORIMG/thumbs/NEFOR5.jpg);
+    }
+    #NEFOR-gallery .NEFOR6{
+        grid-area: NEFOR6;
+        background-image: url(../NEFORIMG/thumbs/NEFOR6.jpg);
+    }
+    #NEFOR-gallery .NEFOR7{
+        grid-area: NEFOR7;
+        background-image: url(../NEFORIMG/thumbs/NEFOR7.jpg);
+    }
+    #NEFOR-gallery .NEFOR8{
+        grid-area: NEFOR8;
+        background-image: url(../NEFORIMG/thumbs/NEFOR8.jpg);
+        height: 605px;
+    }
+    #NEFOR-gallery .NEFOR9{
+        grid-area: NEFOR9;
+        background-image: url(../NEFORIMG/thumbs/NEFOR9.jpg);
+    }
+    #NEFOR-gallery .NEFOR10{
+        grid-area: NEFOR10;
+        background-image: url(../NEFORIMG/thumbs/NEFOR10.jpg);
+    }
+    #NEFOR-gallery .NEFOR11{
+        grid-area: NEFOR11;
+        background-image: url(../NEFORIMG/thumbs/NEFOR11.jpg);
+    }
+    #NEFOR-gallery .NEFOR12{
+        grid-area: NEFOR12;
+        background-image: url(../NEFORIMG/thumbs/NEFOR12.jpg);
+    }
+    #NEFOR-gallery .NEFOR13{
+        grid-area: NEFOR13;
+        background-image: url(../NEFORIMG/thumbs/NEFOR13.jpg);
+    }
+    #NEFOR-gallery .NEFOR14{
+        grid-area: NEFOR14;
+        background-image: url(../NEFORIMG/thumbs/NEFOR14.jpg);
+        height: 605px;
+    }
+    #NEFOR-gallery .NEFOR15{
+        grid-area: NEFOR15;
+        background-image: url(../NEFORIMG/thumbs/NEFOR15.jpg);
+        height: 605px;
+    }
+    #NEFOR-gallery .NEFOR16{
+        grid-area: NEFOR16;
+        background-image: url(../NEFORIMG/thumbs/NEFOR16.jpg);
+    }
+    #NEFOR-gallery .NEFOR17{
+        grid-area: NEFOR17;
+        background-image: url(../NEFORIMG/thumbs/NEFOR17.jpg);
+        height: 605px;
+    }
+    #NEFOR-gallery .NEFOR18{
+        grid-area: NEFOR18;
+        background-image: url(../NEFORIMG/thumbs/NEFOR18.jpg);
+    }
+    #NEFOR-gallery .NEFOR19{
+        grid-area: NEFOR19;
+        background-image: url(../NEFORIMG/thumbs/NEFOR19.jpg);
+    }
+    #NEFOR-gallery .NEFOR20{
+        grid-area: NEFOR20;
+        background-image: url(../NEFORIMG/thumbs/NEFOR20.jpg);
+    }
+    #NEFOR-gallery .NEFOR21{
+        grid-area: NEFOR21;
+        background-image: url(../NEFORIMG/thumbs/NEFOR21.jpg);
+        height: 605px;
+    }
+    #NEFOR-gallery .NEFOR22{
+        grid-area: NEFOR22;
+        background-image: url(../NEFORIMG/thumbs/NEFOR22.jpg);
+    }
+    #NEFOR-gallery .NEFOR23{
+        grid-area: NEFOR23;
+        background-image: url(../NEFORIMG/thumbs/NEFOR23.jpg); 
+    }
+    #NEFOR-gallery .NEFOR24{
+        grid-area: NEFOR24;
+        background-image: url(../NEFORIMG/thumbs/NEFOR24.jpg);
+    }
+    #NEFOR-gallery .NEFOR25{
+        grid-area: NEFOR25;
+        background-image: url(../NEFORIMG/thumbs/NEFOR25.jpg);
+    }
+    #NEFOR-gallery .NEFOR26{
+        grid-area: NEFOR26;
+        background-image: url(../NEFORIMG/thumbs/NEFOR26.jpg);
+    }
+    #NEFOR-gallery .NEFOR27{
+        grid-area: NEFOR27;
+        background-image: url(../NEFORIMG/thumbs/NEFOR27.jpg);
+        height: 605px;
+    }
+    #NEFOR-gallery .NEFOR28{
+        grid-area: NEFOR28;
+        background-image: url(../NEFORIMG/thumbs/NEFOR28.jpg);
+        height: 605px;
+    }
+    #NEFOR-gallery .NEFOR29{
+        grid-area: NEFOR29;
+        background-image: url(../NEFORIMG/thumbs/NEFOR29.jpg);
+        height: 605px;
+    }
+    #NEFOR-gallery .NEFOR30{
+        grid-area: NEFOR30;
+        background-image: url(../NEFORIMG/thumbs/NEFOR30.jpg);
+    }
+    #NEFOR-gallery .NEFOR31{
+        grid-area: NEFOR31;
+        background-image: url(../NEFORIMG/thumbs/NEFOR31.jpg);
+    }
+    #NEFOR-gallery .NEFOR32{
+        grid-area: NEFOR32;
+        background-image: url(../NEFORIMG/thumbs/NEFOR32.jpg);
+    }
+    #NEFOR-gallery .NEFOR33{
+        grid-area: NEFOR33;
+        background-image: url(../NEFORIMG/thumbs/NEFOR33.jpg);
+    }
+    #NEFOR-gallery .NEFOR34{
+        grid-area: NEFOR34;
+        background-image: url(../NEFORIMG/thumbs/NEFOR34.jpg);
+    
+    }
+    #NEFOR-gallery .NEFOR35{
+        grid-area: NEFOR35;
+        background-image: url(../NEFORIMG/thumbs/NEFOR35.jpg);
+        height: 605px;
+    }
+    #NEFOR-gallery .NEFOR36{
+        grid-area: NEFOR36;
+        background-image: url(../NEFORIMG/thumbs/NEFOR36.jpg);
+        height: 605px;
+    }
+    #NEFOR-gallery .NEFOR37{
+        grid-area: NEFOR37;
+        background-image: url(../NEFORIMG/thumbs/NEFOR37.jpg);
+    }
+    #NEFOR-gallery .NEFOR38{
+        grid-area: NEFOR38;
+        background-image: url(../NEFORIMG/thumbs/NEFOR38.jpg);
+    }
+    #NEFOR-gallery .NEFOR39{
+        grid-area: NEFOR39;
+        background-image: url(../NEFORIMG/thumbs/NEFOR39.jpg);
+        height: 605px;
+    }
+    #NEFOR-gallery .NEFOR40{
+        grid-area: NEFOR40;
+        background-image: url(../NEFORIMG/thumbs/NEFOR40.jpg);
+        height: 605px;
+    }
+    #NEFOR-gallery .NEFOR41{
+        grid-area: NEFOR41;
+        background-image: url(../NEFORIMG/thumbs/NEFOR41.jpg);
+    }
+    #NEFOR-gallery .NEFOR42{
+        grid-area: NEFOR42;
+        background-image: url(../NEFORIMG/thumbs/NEFOR42.jpg);
+    }
+    #NEFOR-gallery .NEFOR43{
+        grid-area: NEFOR43;
+        background-image: url(../NEFORIMG/thumbs/NEFOR43.jpg);
+    }
+    #NEFOR-gallery .NEFOR44{
+        grid-area: NEFOR44;
+        background-image: url(../NEFORIMG/thumbs/NEFOR44.jpg);
+    }
+    #NEFOR-gallery .NEFOR45{
+        grid-area: NEFOR45;
+        background-image: url(../NEFORIMG/thumbs/NEFOR45.jpg);
+    }
+    #NEFOR-gallery .NEFOR46{
+        grid-area: NEFOR46;
+        background-image: url(../NEFORIMG/thumbs/NEFOR46.jpg);
+    }
+    #NEFOR-gallery .NEFOR47{
+        grid-area: NEFOR47;
+        background-image: url(../NEFORIMG/thumbs/NEFOR47.jpg);
+    }
+    #NEFOR-gallery .NEFOR48{
+        grid-area: NEFOR48;
+        background-image: url(../NEFORIMG/thumbs/NEFOR48.jpg);
+        height: 605px;
+    }
+    #NEFOR-gallery .NEFOR49{
+        grid-area: NEFOR49;
+        background-image: url(../NEFORIMG/thumbs/NEFOR49.jpg);
+    }
+    #NEFOR-gallery .NEFOR50{
+        grid-area: NEFOR50;
+        background-image: url(../NEFORIMG/thumbs/NEFOR50.jpg);
+    }
+    #NEFOR-gallery .NEFOR51{
+        grid-area: NEFOR51;
+        background-image: url(../NEFORIMG/thumbs/NEFOR51.jpg);
+    }
+    #NEFOR-gallery .NEFOR52{
+        grid-area: NEFOR52;
+        background-image: url(../NEFORIMG/thumbs/NEFOR52.jpg);
+    }
+    #NEFOR-gallery .NEFOR53{
+        grid-area: NEFOR53;
+        background-image: url(../NEFORIMG/thumbs/NEFOR53.jpg);
+    }
+    #NEFOR-gallery .NEFOR54{
+        grid-area: NEFOR54;
+        background-image: url(../NEFORIMG/thumbs/NEFOR54.jpg);
+    }
+    #NEFOR-gallery .NEFOR55{
+        grid-area: NEFOR55;
+        background-image: url(../NEFORIMG/thumbs/NEFOR55.jpg);
+        
+    }
+    #NEFOR-gallery .NEFOR56{
+        grid-area: NEFOR56;
+        background-image: url(../NEFORIMG/thumbs/NEFOR56.jpg);
+        height: 605px;
+    }
+    #NEFOR-gallery .NEFOR57{
+        grid-area: NEFOR57;
+        background-image: url(../NEFORIMG/thumbs/NEFOR57.jpg);
+    }
+        #NEFOR-gallery .NEFOR58{
+            grid-area: NEFOR58;
+            background-image: url(../NEFORIMG/thumbs/NEFOR58.jpg);
+        }
+        #NEFOR-gallery .NEFOR59{
+            grid-area: NEFOR59;
+            background-image: url(../NEFORIMG/thumbs/NEFOR59.jpg);
+        }
+        #NEFOR-gallery .NEFOR60{
+            grid-area: NEFOR60;
+            background-image: url(../NEFORIMG/thumbs/NEFOR6.jpg);
+        }
+        #NEFOR-gallery .NEFOR61{
+            grid-area: NEFOR61;
+            background-image: url(../NEFORIMG/thumbs/NEFOR61.jpg);
+        }
+        #NEFOR-gallery .NEFOR62{
+            grid-area: NEFOR62;
+            background-image: url(../NEFORIMG/thumbs/NEFOR62.jpg);
+        }
+        #NEFOR-gallery .NEFOR63{
+            grid-area: NEFOR63;
+            background-image: url(../NEFORIMG/thumbs/NEFOR63.jpg);
+        }
+        #NEFOR-gallery .NEFOR64{
+            grid-area: NEFOR64;
+            background-image: url(../NEFORIMG/thumbs/NEFOR64.jpg);
+        }
+        #NEFOR-gallery .NEFOR65{
+            grid-area: NEFOR65;
+            background-image: url(../NEFORIMG/thumbs/NEFOR65.jpg);
+        }
+        #NEFOR-gallery .NEFOR66{
+            grid-area: NEFOR66;
+            background-image: url(../NEFORIMG/thumbs/NEFOR66.jpg);
+            height: 605px;
+        }
+        #NEFOR-gallery .NEFOR67{
+            grid-area: NEFOR67;
+            background-image: url(../NEFORIMG/thumbs/NEFOR67.jpg);
+            height: 605px;
+        }
+        #NEFOR-gallery .NEFOR68{
+            grid-area: NEFOR68;
+            background-image: url(../NEFORIMG/thumbs/NEFOR68.jpg);
+        }
+        #NEFOR-gallery .NEFOR69{
+            grid-area: NEFOR69;
+            background-image: url(../NEFORIMG/thumbs/NEFOR69.jpg);
+        }
+        #NEFOR-gallery .NEFOR70{
+            grid-area: NEFOR70;
+            background-image: url(../NEFORIMG/thumbs/NEFOR70.jpg);
+            
+        }
+        #NEFOR-gallery .NEFOR71{
+            grid-area: NEFOR71;
+            background-image: url(../NEFORIMG/thumbs/NEFOR71.jpg);
+            height: 605px;
+        }
+        #NEFOR-gallery .NEFOR72{
+            grid-area: NEFOR72;
+            background-image: url(../NEFORIMG/thumbs/NEFOR72.jpg);
+        }
+        #NEFOR-gallery .NEFOR73{
+            grid-area: NEFOR73;
+            background-image: url(../NEFORIMG/thumbs/NEFOR73.jpg);
+            height: 605px;
+        }
+        #NEFOR-gallery .NEFOR74{
+            grid-area: NEFOR74;
+            background-image: url(../NEFORIMG/thumbs/NEFOR74.jpg);
+        }
+        #NEFOR-gallery .NEFOR75{
+            grid-area: NEFOR75;
+            background-image: url(../NEFORIMG/thumbs/NEFOR75.jpg);
+        }
+        #NEFOR-gallery .NEFOR76{
+            grid-area: NEFOR76;
+            background-image: url(../NEFORIMG/thumbs/NEFOR76.jpg);
+        }
+    /*all images title*/
+    .NEFOR-IMG div{
+        width: 100%;
+        height: 100%;
+        background-color:#000000;
+        opacity: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .NEFOR-IMG a{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 18px;
+        color: #ffffffff;
+        text-decoration: none;
+        text-transform: uppercase;
+    }   
+    .NEFOR-IMG div:hover{
+        opacity: 0.8;
+        transition: all ease-in-out 100ms;
+    }
