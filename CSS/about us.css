@@ -1,0 +1,247 @@
+body{
+    font: 15px/1.5 Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+   
+}
+/*header section*/
+header{
+    background: #354243;
+    color: #ffffff;
+    padding-top: 5px;
+    min-height:72px;
+    border-bottom: hwb(138 1% 85% / 0.815) 10px solid;
+    border-top: hwb(138 1% 85% / 0.815) 5px solid;
+    cursor: pointer;
+    min-width: 100%px;
+}
+header a{
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+    padding: 5PX;
+}
+
+header li{
+    float: left;
+    display: inline;
+    padding: 0 10px 0 10px;
+}
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        
+header #branding{
+    float: left;
+}
+header #branding h3{
+margin: 2px;
+padding: 2px;
+font-size: 16px;
+text-transform: uppercase;
+}
+header nav{
+    float: right;
+    padding: 3px;
+}
+
+header .highlight, header .current a{
+    color: #e84914;
+    font: bold;
+}
+header a:hover{
+    color: hwb(150 2% 57% / 0.801);
+    font-weight: bold;
+}
+header img{
+    width: 60px;
+    height: 60px;
+    float: left;
+    padding-left: 5px;
+    box-sizing: border-box;
+    border-radius: 20px;
+}
+.about-nefor{
+    width: 50%;
+    float: right; 
+}
+/*end of Header*/
+#container-nefor{
+    padding: 2px;
+    width: 100%; 
+    height: 700px;
+    margin: 5px;  
+}
+.col1, .col2{
+    width:49%;
+    height:700px;  
+    text-align: justify;
+    padding: 3px;
+}
+.col1, .col2 h1{
+    
+    text-align: center;
+    padding-top: 1px;
+    
+}
+.col2 h1{
+    font-size: 15px;
+    text-transform: uppercase;
+
+}
+.col1 h1{
+    font-size: 15px;
+    text-transform: uppercase;
+}
+.col1 p{
+    text-align: left;
+}
+.col1{
+    float: left;
+}
+.col2{
+   
+    float: right;
+}
+/* This is a footer*/
+footer{
+        background: #354243;
+        color: #ffffff;
+        padding-top:5px;
+        min-height:65px;
+        border-bottom: hwb(19 2% 26%) 10px solid;
+        min-width: 100%;   
+}
+footer{
+    background: #354243;
+    color: #ffffff;
+    padding-top: 5px;
+    min-height: 65px;
+    border-bottom: hwb(138 1% 85% / 0.815) 10px solid;
+    border-top: hwb(138 1% 85% / 0.815) 5px solid;
+    min-width: 100%;
+}
+
+footer p{
+    text-align: center;
+    font: 1em sans-serif;
+    margin: 10px;
+    text-transform: uppercase;
+}
+footer h3{
+    text-align: center;
+    font: 1em sans-serif;
+    text-transform: uppercase ;
+}
+footer ul{
+    background-color: blue;
+    align-items: center;
+}
+footer a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+    align-items: center;
+    padding: 0;
+}
+footer li{
+    float: left;
+    display: inline;
+    padding: 10px 10px 10px 10px;
+}
+.nefor-logo1{
+    width: 20%;
+    float: left;
+    min-height: 60px;
+}
+.nefor-logo2{
+    width: 20%;
+    float: right;
+    min-height: 60px;
+}
+.nefor-logo1 img{
+    width: 50px;
+    margin: 3px;
+    box-sizing: border-box;
+    border-radius: 20px;
+}
+.nefor-logo2 img{
+    width: 50px;
+    float: right;
+    margin: 3px;
+    box-sizing: border-box;
+    border-radius: 20px;
+}
+/*footer social media*/
+.button{
+    display: inline-block;
+    height: 30px;
+    width: 45px;
+    max-width: 0 3px;
+    overflow: hidden;
+    background:hsl(139, 91%, 9%);
+    border-radius: 35px;
+    cursor: pointer;
+    box-shadow: 0px 10px 10px rgb(0, 0, 0 0.1);
+    transition: all 0.3s ease-out;
+    margin-left: 70px;
+}
+.wrapper .button:hover{
+    width: 200px;
+}
+.wrapper .button .icon{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    border-radius: 40px;
+    box-sizing: border-box;
+    line-height: 40px;
+    transition: all 0.3s ease-out;
+}
+.wrapper .button:nth-child(1)
+:hover.icon{
+    background-color: hwb(263 2% 46%);
+}
+.wrapper .button:nth-child(2)
+:hover.icon{
+    background-color: hsl(135, 92%, 28%);
+}
+.wrapper .button:nth-child(3)
+:hover.icon{
+    background-color: hwb(0 2% 46%);
+}
+.wrapper .button:nth-child(4)
+:hover.icon{
+    background-color: rgb(21, 4, 49);
+}
+
+.wrapper .button .icon a{
+    font-size: 30px;
+    line-height: 30px;
+    transition: all 0.3s ease-out;
+}
+
+.wrapper .button:nth-child(1)
+span{
+    color: blue;
+    font-size: 15px;
+}
+
+.wrapper .button:nth-child(2)
+span{
+    color: rgb(10, 179, 75);
+    font-size: 15px;
+}
+
+.wrapper .button:nth-child(3)
+span{
+    color: #ff0000;
+    font-size: 15px;
+}
+
+.wrapper .button:nth-child(4)
+span{
+    color:white ;
+    font-size: 15px;
+}
+

@@ -1,0 +1,215 @@
+body{
+    font: 15px/1.5 Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+.main-nefor{
+    margin: 0 2vw;
+}
+.wrapper-nefor{
+    margin: 0 2vw;
+    
+}
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+.wrapper-nefor nav{
+    display: grid;
+    float: right;
+    padding-top:4px;
+}
+/* This is a hearder*/
+
+header{
+    background: #354243;
+    color: #ffffff;
+    padding-top: 5px;
+    min-height: 65px;
+    border-bottom: hwb(19 2% 26%) 10px solid;
+    min-width: 100%px;
+    cursor: pointer;
+}
+header a{
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+    padding: 5PX;
+}
+
+header li{
+    float: left;
+    display: inline;
+    padding: 0 10px 0 10px;
+}
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        
+header #branding{
+    float: left;
+}
+header #branding h3{
+margin: 2px;
+padding: 2px;
+font-size: 16px;
+text-transform: uppercase;
+}
+header nav{
+    float: right;
+    padding: 3px;
+}
+
+header .highlight, header .current a{
+    color: #e84914;
+    font: bold;
+}
+header a:hover{
+    color: hwb(150 2% 57% / 0.801);
+    font-weight: bold;
+}
+header img{
+    width: 60px;
+    height: 55px;
+    float: left;
+    padding-left: 5px;
+    border-radius: 15px;
+    box-sizing: border-box;
+}
+#NEFOR-gallery h2{
+ text-transform: uppercase;
+ padding-left: 500px;
+}
+/*This is a Footer*/
+footer{
+    background: #354243;
+    color: #ffffff;
+    padding-top: 5px;
+    min-height: 70px;
+    border-bottom: hwb(138 1% 85% / 0.815) 10px solid;
+    border-top: hwb(138 1% 85% / 0.815) 5px solid;
+}
+
+footer p{
+    text-align: center;
+    font: 1em sans-serif;
+    margin: 10px;
+    text-transform: uppercase;
+}
+footer h3{
+    text-align: center;
+    font: 1em sans-serif;
+    text-transform: uppercase ;
+}
+footer ul{
+    
+    align-items: center;
+}
+footer a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+    align-items: center;
+    padding: 0;
+}
+footer li{
+    float: left;
+    display: inline;
+    padding: 10px 10px 10px 10px;
+}
+.nefor-logo1{
+    width: 15%;
+    float: left;
+   
+}
+.nefor-logo2{
+    width: 10%;
+    float: right;
+  
+}
+.nefor-logo1 img{
+    width: 50px;
+    margin: 3px;
+}
+.nefor-logo2 img{
+    width: 50px;
+    float: right;
+    margin: 3px;
+}
+
+/*footer social media*/
+
+.button{
+    display: inline-block;
+    height: 30px;
+    width: 45px;
+    max-width: 0 3px;
+    overflow: hidden;
+    background:hsl(139, 91%, 9%);
+    border-radius: 35px;
+    cursor: pointer;
+    box-shadow: 0px 10px 10px rgb(0, 0, 0 0.1);
+    transition: all 0.3s ease-out;
+    margin-left: 85px;
+}
+.wrapper .button:hover{
+    width: 200px;
+}
+
+.wrapper .button .icon{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    border-radius: 40px;
+    box-sizing: border-box;
+    line-height: 40px;
+    transition: all 0.3s ease-out;
+}
+
+.wrapper .button:nth-child(1)
+:hover.icon{
+    background-color: hwb(263 2% 46%);
+}
+.wrapper .button:nth-child(2)
+:hover.icon{
+    background-color: hsl(135, 92%, 28%);
+}
+.wrapper .button:nth-child(3)
+:hover.icon{
+    background-color: hwb(0 2% 46%);
+}
+.wrapper .button:nth-child(4)
+:hover.icon{
+    background-color: hsl(135, 92%, 28%);
+}
+
+.wrapper .button .icon a{
+    font-size: 30px;
+    line-height: 30px;
+    transition: all 0.3s ease-out;
+}
+
+.wrapper .button:nth-child(1)
+span{
+    color: blue;
+    font-size: 20px;
+}
+
+.wrapper .button:nth-child(2)
+span{
+    color: rgb(10, 179, 75);
+    font-size: 20px;
+}
+
+.wrapper .button:nth-child(3)
+span{
+    color: #ff0000;
+    font-size: 20px;
+}
+
+.wrapper .button:nth-child(4)
+span{
+    color: hsl(352, 92%, 15%);
+    font-size: 20px;
+}
+

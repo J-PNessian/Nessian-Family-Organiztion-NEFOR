@@ -1,0 +1,299 @@
+body{
+    font: 15px/1.5 Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+    background: radial-gradient(hsl(256, 89%, 41%), #b97105 75%);
+}
+/*this is a  header section*/
+
+/*header section*/
+header{
+    background: #354243;
+    color: #ffffff;
+    padding-top: 5px;
+    min-height: 72px;
+    border-bottom: hwb(145 1% 81%) 10px solid;
+    min-width: 100%px;
+   
+}
+header a{
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+    padding: 5PX;
+    cursor: pointer;
+}
+
+header li{
+    float: left;
+    display: inline;
+    padding: 0 10px 0 10px;
+}
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        
+header #branding{
+    float: left;
+}
+header #branding h3{
+margin: 2px;
+padding: 2px;
+font-size: 16px;
+text-transform: uppercase;
+}
+header nav{
+    float: right;
+    padding: 3px;
+}
+
+header .highlight, header .current a{
+    color: #e84914;
+    font: bold;
+}
+header a:hover{
+    color: hwb(150 2% 57% / 0.801);
+    font-weight: bold;
+}
+header img{
+    width: 60px;
+    height: 60px;
+    float: left;
+    padding-left: 5px;
+}
+
+
+/*card*/
+#container-nefor{
+    padding: 2px;
+    margin: 5px; 
+    width: 100%;
+    height: 100%; 
+}
+#container-nefor h1{
+    text-align: center;
+}
+/* duties on our mission*/
+#container-nefor span{
+    color: #010f09;
+    font-size: 40px;
+}.Nefor8{
+    background-color: #e84914;
+}
+.health1{
+    height:200px;
+    width: 200px;
+    border-radius: 100%;
+    float: left;
+    shape-outside: circle(150px);
+    shape-margin: 10px;
+    margin-right: 10px;
+    filter: drop-shadow(7px 7px 7px #666666);
+}
+.health{
+    height:150px;
+    width: 150px;
+    float: right;
+    border-radius: 100%;
+    shape-margin: 10px;
+    margin-right: 10px;
+    background: radial-gradient(hsl(256, 89%, 41%), #b97105 75%);
+}
+
+.jpn{
+    text-align: justify;
+    font-size: 1rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 2px;
+    margin: 2px;
+}
+.Agri1{
+    height:200px;
+    width: 200px;
+    border-radius: 100%;
+    float: left;
+    shape-outside: circle(150px);
+    shape-margin: 10px;
+    margin-right: 10px;
+    filter: drop-shadow(7px 7px 7px #666666);
+}
+.Agri{
+    height:150px;
+    width: 150px;
+    float: right;
+    border-radius: 100%;
+    shape-margin: 10px;
+    margin-right: 10px;
+    background: radial-gradient(hsl(256, 89%, 41%), #b97105 75%);
+}
+.educate1{
+    height:150px;
+    width:150px;
+    border-radius:100%;
+    shape-margin: 10px;
+    margin-right: 10px;
+    float: left;
+    background: radial-gradient(hwb(120 5% 22%), hsl(246, 95%, 37%) 75%);
+}
+.p{
+    text-align: justify;
+    font-size: 1rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 2px;
+    margin: 2px;
+    color: rgb(1, 17, 5);
+}
+.Education{
+    height:100px;
+    width:100px;
+    border-radius:100%;
+    shape-margin: 10px;
+    margin-right: 5px;
+    float: right;
+    background: radial-gradient(hwb(120 5% 22%), hsl(246, 95%, 37%) 75%);
+}
+
+
+/* end of duties on our mission*/
+
+/*end of card*/
+
+/* This is a footer*/
+
+footer{
+    background: #354243;
+    color: #ffffff;
+    padding-top: 5px;
+    min-height: 65px;
+    border-bottom:darkgreen;
+    min-width: 100%px;
+}
+
+footer p{
+    text-align: center;
+    font: 1em sans-serif;
+    margin: 10px;
+    text-transform: uppercase;
+    
+}
+footer h3{
+    text-align: center;
+    font: 1em sans-serif;
+    text-transform: uppercase ;
+}
+footer ul{
+    background-color: blue;
+    align-items: center;
+}
+footer a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+    align-items: center;
+    padding: 0;
+}
+footer li{
+    float: left;
+    display: inline;
+    padding: 10px 10px 10px 10px;
+}
+.nefor-logo1{
+    width: 20%;
+    float: left;
+    min-height: 60px;
+    
+}
+.nefor-logo2{
+    width: 20%;
+    float: right;
+    min-height: 60px;
+   
+}
+.nefor-logo1 img{
+    width: 50px;
+    margin: 3px;
+    box-sizing: border-box;
+    border-radius: 20px;
+}
+.nefor-logo2 img{
+    width: 50px;
+    float: right;
+    margin: 3px;
+    box-sizing: border-box;
+    border-radius: 20px;
+    border-color: darkgreen;
+}
+
+.button{
+    display: inline-block;
+    height: 30px;
+    width: 45px;
+    max-width: 0 3px;
+    overflow: hidden;
+    background:hsl(139, 91%, 9%);
+    border-radius: 35px;
+    cursor: pointer;
+    box-shadow: 0px 10px 10px rgb(0, 0, 0 0.1);
+    transition: all 0.3s ease-out;
+    margin-left: 70px;
+}
+.wrapper .button:hover{
+    width: 200px;
+}
+
+.wrapper .button .icon{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    border-radius: 40px;
+    box-sizing: border-box;
+    line-height: 40px;
+    transition: all 0.3s ease-out;
+}
+
+.wrapper .button:nth-child(1)
+:hover.icon{
+    background-color: hwb(263 2% 46%);
+}
+.wrapper .button:nth-child(2)
+:hover.icon{
+    background-color: hsl(135, 92%, 28%);
+}
+.wrapper .button:nth-child(3)
+:hover.icon{
+    background-color: hwb(0 2% 46%);
+}
+.wrapper .button:nth-child(4)
+:hover.icon{
+    background-color: hsl(135, 92%, 28%);
+}
+
+.wrapper .button .icon a{
+    font-size: 30px;
+    line-height: 30px;
+    transition: all 0.3s ease-out;
+}
+
+.wrapper .button:nth-child(1)
+span{
+    color: blue;
+    font-size: 20px;
+}
+
+.wrapper .button:nth-child(2)
+span{
+    color: rgb(10, 179, 75);
+    font-size: 20px;
+}
+
+.wrapper .button:nth-child(3)
+span{
+    color: #ff0000;
+    font-size: 20px;
+}
+
+.wrapper .button:nth-child(4)
+span{
+    color: hsl(352, 92%, 15%);
+    font-size: 20px;
+}

@@ -1,0 +1,451 @@
+body{
+    font: 15px/1.5 Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+
+}
+/*header section*/
+
+
+header{
+    background: #354243;
+    color: #ffffff;
+    padding-top: 5px;
+    min-height:74px;
+    border-bottom: hwb(138 1% 85% / 0.815) 10px solid;
+    border-top: hwb(138 1% 85% / 0.815) 5px solid;
+    min-width: 100%px;
+    cursor: pointer;
+}
+header a{
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+    padding: 5PX;
+}
+
+header li{
+    float: left;
+    display: inline;
+    padding: 0 10px 0 10px;
+}
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        
+header #branding{
+    float: left;
+}
+header #branding h3{
+margin: 2px;
+padding: 2px;
+font-size: 16px;
+text-transform: uppercase;
+}
+header nav{
+    float: right;
+    padding: 3px;
+}
+
+header .highlight, header .current a{
+    color: #e84914;
+    font: bold;
+}
+header a:hover{
+    color: hwb(150 2% 57% / 0.801);
+    font-weight: bold;
+}
+header img{
+    width: 60px;
+    height: 55px;
+    float: left;
+    padding-left: 5px;
+    box-sizing: border-box;
+    border-radius: 20px;
+}
+
+
+/*end of Header*/
+/*NEFOR showcase*/
+#nefor-showcase{
+    text-align: center;
+    color: #ffffff;background: url("../NEFORIMG/NEFOR5.jpg") no-repeat 0 -600px;
+    padding-top: 2px;
+    width: 40%;
+    height: 200px;
+    float: right;
+}
+#nefor-showcase h3{
+    margin-top: 40px;
+    font-size: 20px;
+    margin-bottom: 16px;
+    text-transform: uppercase;
+    padding-left: 5px;
+    text-align: center;
+}
+#nefor-showcase p{
+    margin-top: 30px;
+    font-size: 20px;
+}
+#nefor-container3{
+    padding: 10PX;
+    color: #ffffff;
+    background: #354243;
+}
+#nefor-container3 h2{
+    float: left;
+    width: 30%;
+    margin-top: 0;
+}
+#nefor-container3 form{
+    float: right;
+    
+}
+
+/*slide img*/
+.shosli{
+    width: 100%;
+    background-color: #4070fa;
+}
+.N-slider{
+    width: 60%;
+    height: 200px;
+    overflow: hidden;
+    float: left;
+}
+figure{
+    position: relative;
+    left: 0;
+    width: 400%;
+    animation: 10s slide infinite;
+}
+.N-slide{
+    position: relative;
+    width: 25%;
+    float: left;
+    
+}
+.N-slide h3{
+    position: absolute;
+    font-size: 3rem;
+    width: 100%;
+    text-align: center;
+    margin-top: 50px;
+    color: #265df2;
+    text-shadow: 1px 1px 2px rgb(red, green, blue);
+}
+
+.N-slide img{
+    width: 100%;
+    height: 600px;
+}
+
+@keyframes slide{
+    0%{
+        left: 0;
+    }
+    10%{
+        left: 0;
+    }
+    20%{
+        left:-100%;
+    }
+    30%{
+        left:-100%;
+    }
+    40%{
+        left:-200%;
+    }
+    50%{
+        left:-200%;
+    }
+    55%{
+        left: -300%;
+    }
+    65%{
+        left: -300%;
+    }
+    66%{
+        left: -200%;
+    }
+    74%{
+        left: -200%;
+    }
+    75%{
+        left: -100%;
+    }
+    85%{
+        left: -200%;
+    }
+    90%{
+        left: 0;
+    }
+    100%{
+        left: 0;
+    }
+}
+
+
+
+.slide-container{
+    max-width: 1110px;
+    width: 90%;
+    padding: 40px;
+}
+.slide-content{
+    margin: 0 40px;
+    overflow: hidden;
+    border-radius: 30px;
+    
+}
+.card{
+    border-radius: 30px;
+    background-color:rgb(208, 218, 213);
+}
+.image-content,
+.card-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 14px;
+}
+.image-content{
+    position: relative;
+    row-gap: 5px;
+    padding: 25px 0;
+}
+.overlay{
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: green;
+    border-radius: 25px 25px 0 25px;
+}
+.overlay::before,
+.overlay::after{
+    content: '';
+    position: absolute;
+    right: 0;
+    bottom: -40px;
+    height: 40px;
+    width: 40px;
+    background-color:green;
+}
+.overlay::after{
+    border-radius: 0 25px 0 0;
+    background-color:rgb(208, 218, 213);
+}
+.card-image{
+    position: relative;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background-color: hsl(145, 85%, 29%);
+    padding: 3px;
+}
+
+.card-image .card-img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    border: #4070fa;
+}
+.name{
+    font-size: 18px;
+    font-weight: 500;
+    color: #333;
+}
+.description{
+    font-size: 14px;
+    color:#707070;
+    text-align: center;
+}
+.button-1{
+    border: none;
+    font-size: 16px;
+    color: #fff;
+    padding: 8px 16px;
+    background-color:darkgreen;
+    border-radius: 6px;
+    margin: 14px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    
+}
+.button:hover{
+    background-color: #265df2;
+}
+.swiper-navBtn{
+    color: green;
+    transition: color 0.3s ease; 
+}
+.swiper-navBtn:hover{
+    color:green;
+}
+.swiper-navBtn::before,
+.swiper-navBtn::after{
+    font-size: 40px;
+}
+.swiper-button-next{
+    right: 0;
+}
+.swiper-button-prev{
+    left: 0;
+}
+.swiper-pagination-bullet{
+    background-color: #6E93f7;
+    opacity: 1;
+}
+.swiper-pagination-bullet-active{
+    background-color: #4070F4;
+}
+
+@media screen and (max-width: 768) {
+    .slide-content{
+        margin: 0 10px;
+    }
+    .swiper-navBtn{
+        display: none;
+    }
+}
+
+
+/*this is a footer*/
+footer{
+    background: #354243;
+    color: #ffffff;
+    padding-top: 5px;
+    min-height: 65px;
+    border-bottom: hwb(138 1% 85% / 0.815) 10px solid;
+    border-top: hwb(138 1% 85% / 0.815) 5px solid;
+    min-width: 100%px;
+}
+
+footer p{
+    text-align: center;
+    font: 1em sans-serif;
+    margin: 10px;
+    text-transform: uppercase;
+}
+footer h3{
+    text-align: center;
+    font: 1em sans-serif;
+    text-transform: uppercase ;
+}
+footer ul{
+    background-color: blue;
+    align-items: center;
+}
+footer a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+    align-items: center;
+    padding: 0;
+}
+footer li{
+    float: left;
+    display: inline;
+    padding: 10px 10px 10px 10px;
+}
+.nefor-logo1{
+    width: 7%;
+    float: left;
+}
+.nefor-logo2{
+    width: 7%;
+    float: right;
+}
+.nefor-logo1 img{
+    width: 50px;
+    margin: 3px;
+    box-sizing: border-box;
+    border-radius: 20px;
+}
+.nefor-logo2 img{
+    width: 50px;
+    float: right;
+    margin: 3px;
+    box-sizing: border-box;
+    border-radius: 20px;
+}
+
+/*footer social media*/
+
+.button{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    max-width: 0 3px;
+    overflow: hidden;
+    background:hsl(139, 91%, 9%);
+    border-radius: 35px;
+    cursor: pointer;
+    box-shadow: 0px 10px 10px rgb(0, 0, 0 0.1);
+    transition: all 0.3s ease-out;
+    margin-left: 150px;
+}
+.wrapper .button:hover{
+    width: 200px;
+}
+
+.wrapper .button .icon{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    border-radius: 40px;
+    box-sizing: border-box;
+    line-height: 40px;
+    transition: all 0.3s ease-out;
+}
+
+.wrapper .button:nth-child(1)
+:hover.icon{
+    background-color: hwb(263 2% 46%);
+}
+.wrapper .button:nth-child(2)
+:hover.icon{
+    background-color: hsl(135, 92%, 28%);
+}
+.wrapper .button:nth-child(3)
+:hover.icon{
+    background-color: hwb(0 2% 46%);
+}
+.wrapper .button:nth-child(4)
+:hover.icon{
+    background-color: hsl(135, 92%, 28%);
+}
+
+.wrapper .button .icon a{
+    font-size: 30px;
+    line-height: 30px;
+    transition: all 0.3s ease-out;
+}
+
+.wrapper .button:nth-child(1)
+span{
+    color: blue;
+    font-size: 20px;
+}
+
+.wrapper .button:nth-child(2)
+span{
+    color: rgb(10, 179, 75);
+    font-size: 20px;
+}
+
+.wrapper .button:nth-child(3)
+span{
+    color: #ff0000;
+    font-size: 20px;
+}
+
+.wrapper .button:nth-child(4)
+span{
+    color: hsl(352, 92%, 15%);
+    font-size: 20px;
+}
+
